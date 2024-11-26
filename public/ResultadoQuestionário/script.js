@@ -57,7 +57,7 @@ window.onload = async function () {
         };
         try {
             console.log(pontosUsuario)
-            const response = await fetch('http://tempovalioso/api/usuariosPontos', {
+            const response = await fetch('http://tempovalioso.onrender.com/api/usuariosPontos', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(pontosUsuario)  // Enviando a descrição ao backend
