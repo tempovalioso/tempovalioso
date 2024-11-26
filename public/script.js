@@ -113,9 +113,7 @@ function toggleMenu(menuId) {
 window.onclick = function(event) {
     if (!event.target.closest('.user-btn') && !event.target.closest('.user-btn-mobile')) {
         var desktopMenu = document.getElementById("dropdownMenu");
-        var mobileMenu = document.getElementById("dropdownMenuMobile");
         if (desktopMenu.style.display === "block") desktopMenu.style.display = "none";
-        if (mobileMenu.style.display === "block") mobileMenu.style.display = "none";
     }
 }
 
